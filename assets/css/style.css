@@ -1,0 +1,93 @@
+/* CSS stylesheet to style HTML elements for the Elaina Swann Bootstrap Portfolio website.
+  
+   NAME: style.css
+   AUTHOR: Elaina Swann
+   DATE: 11/30/2017
+   REVISION LOG:  
+*/
+
+html, body {
+  background-image: url("../images/vintage-concrete.png");
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+.navbar {
+  color: #ffffff;
+}
+
+.navbar-header {
+  background: #4aaaa5;
+}
+
+#brand {
+  color: #ffffff;
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+.navbar-fixed-bottom {
+  background: #666666;
+  border-top: .5rem solid #4aaaa5;
+}
+
+#main {
+  padding: inherit;
+}
+
+#content, #sidebar {
+  background: #ffffff;
+}
+
+.page-header, #footer {
+  color: #4aaaa5;
+  font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+#img-profile {
+  margin-right: 1.875rem;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-portfolio {
+  height: 100%;
+  margin-bottom: 1.43rem;
+  width: 100%;
+}
+
+.img-link {
+  align-items: center;
+  background: #4aaaa5;
+  bottom: 10%;
+  color: #ffffff;
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  left: 0;
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+}
+
+#form-button {
+  background: #4aaaa5;
+  color: #ffffff;
+  margin-bottom: 1.875rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
