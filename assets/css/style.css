@@ -37,13 +37,17 @@ html, body {
   background: #ffffff;
 }
 
-.page-header, #footer {
+#content-header, #sidebar-header, #footer {
   color: #4aaaa5;
   font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
 #img-profile {
-  margin-right: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.profile-summary {
+  font-size: 1.875rem;
 }
 
 .img-container {
@@ -52,11 +56,11 @@ html, body {
 
 .img-portfolio {
   height: 100%;
-  margin-bottom: 1.43rem;
+  margin-bottom: 1.875rem;
   width: 100%;
 }
 
-.img-link {
+.img-caption {
   align-items: center;
   background: #4aaaa5;
   bottom: 10%;
@@ -65,7 +69,6 @@ html, body {
   height: 15%;
   justify-content: center;
   left: 0;
-  text-decoration: none;
   position: absolute;
   width: 100%;
 }
@@ -75,6 +78,11 @@ html, body {
   color: #ffffff;
   margin-bottom: 1.875rem; 
 }
+
+.li-social {
+  margin: .5rem;
+}
+
 
 
 

@@ -49,15 +49,15 @@
     </div> <!-- ./navbar-header -->
 
     <!-- Links to access all pages of website. -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+    <div>
+      <ul class="nav navbar-nav navbar-right" id="ul-html-pages">
         <li class="h4 li-html-pages"><a class="link-html-pages" href="index.html" alt="About" target="_self">About</a></li>
 
         <li class="h4 li-html-pages"><a class="link-html-pages" href="portfolio.html" alt="Portfolio" target="_self">Portfolio</a></li>
 
         <li class="h4 li-html-pages"><a class="link-html-pages" href="contact.html" alt="Contact" target="_self">Contact</a></li>
       </ul>
-    </div> <!-- /.navbar-collapse -->
+    </div> <!-- /.navbar-right -->
 
   </div> <!-- /.container -->
   </nav> <!-- /.nav -->
@@ -67,24 +67,46 @@
 
     <div class="row" id="main">
 
-      <div class="col-md-8 clearfix" id="content">
+      <div class="col-md-8" id="content">
 
-        <div class="page-header">
+        <div class="page-header" id="content-header">
           <h1>About Me</h1>
-        </div> <!-- ./page-header -->
+        </div> <!-- ./content-header -->
 
         <div class="row" id="profile">
 
           <div class="col-md-12">
-            <div>
-              <img src="assets/images/Elaina-Swann-Profile.jpg"  class="img-responsive img-thumbnail pull-left" id="img-profile" alt="Elaina Swann Profile Picture" />
-            </div> <!-- ./img-profile -->
 
-            <div>     
-              <p class="text-justify" id="profile-summary">
-                I moved to the Bluffton, SC area over a year ago and thoroughly enjoy the sunny, beach life. I previously lived in Eastern PA on a 16-acre property complete with horses and all types of wildlife. I love any type of animal! Prior to PA, I lived in AL, NJ, GA and MS. As you can probably guess, I am not a huge fan of cold weather.<br /><br /> I earned my BS degree in CS and Math from the University of Alabama in Huntsville. I have been programming for 26 years and have seen many technologies. As a senior level programmer, I have also worked as an SME and project lead. However, I have never strayed far from actual development work. My expertise is in C, object-oriented languages (C++/Java), relational databases and scripting languages (Perl, Unix). I have experience on both Windows and Unix/Linux environments. I love to solve problems. If not a developer, I would definitely be working in a field with an -ology on the end of it or maybe Forensic Science.<br /><br /> When I am not on the computer, you can find me walking, listening to music, or involved with something athletic. You might even catch me watching crime solving shows on TV or solving puzzles.
-              </p>
-            </div> <!-- ./profile-summary -->
+            <!-- Splitting up paragraph and controlling by rows/columns (vs. one column and using float) so section will stack with small viewports. -->
+            <div class="row">
+
+              <div class="col-md-4">
+                <div>
+                  <img src="assets/images/Elaina-Swann-Profile.jpg"  class="img-responsive img-thumbnail" id="img-profile" alt="Elaina Swann Profile Picture" />
+                </div> <!-- ./img-profile -->
+              </div> <!-- col-md-4 -->
+
+              <div class="col-md-8">
+                <div>     
+                  <p class="text-justify profile-summary">
+                    I moved to the Bluffton, South Carolina area over a year ago and thoroughly enjoy the sunny, beach life. I previously lived in Eastern Pennsylvania on a 16-acre property which was complete with horses and all types of wildlife. I love any type of animal! Prior to Pennsylvania, I lived in Alabama, New Jersey, Georgia and Mississippi. As you can probably guess, I am not a huge fan of cold weather.
+                  </p>
+                </div> <!-- ./profile-summary Part 1 -->               
+              </div> <!-- col-md-8 -->
+
+            </div> <!-- ./row -->
+ 
+            <div class="row">
+
+              <div class="col-md-12">
+                <div>     
+                  <p class="text-justify profile-summary">
+                    I earned my BS degree in Computer Science and Math from the University of Alabama in Huntsville. I have been programming for 26 years and have seen many technologies. As a senior level programmer, I have also worked as an SME and project lead. However, I have never strayed far from actual development work. My expertise is in C, object-oriented languages (C++/Java), relational databases and scripting languages (Perl, Unix). I have experience on both Windows and Unix/Linux environments. I love to solve problems. If not a developer, I would definitely be working in a field with an -ology on the end of it or maybe Forensic Science.<br /><br /> When I am not on the computer you can find me walking, listening to music, or involved with something athletic. You might even catch me watching crime solving shows on TV or solving puzzles.
+                  </p>
+                </div> <!-- ./profile-summary Part 2-->
+              </div> <!-- ./col-md-12 -->
+
+            </div> <!-- ./row -->
 
           </div> <!-- ./col-md-12 -->
 
@@ -94,43 +116,43 @@
 
       <div class="col-md-3 col-md-offset-1" id="sidebar">
 
-        <div class="page-header">
+        <div class="page-header" id="sidebar-header">
           <h2>Connect with Me</h2>
-        </div> <!-- ./page-header -->
+        </div> <!-- ./sidebar-header -->
 
-        <ul class="row list-inline ul-social">
+        <div class="row">
 
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.github.com" target="_blank">
-              <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
-              </a>
-            </li>
-          </div>
+          <div class="col-md-12">
+            <div>
+              <ul class="list-inline text-center ul-social">
+                <li class="li-social">
+                  <a class="link-social" href="https://www.github.com" target="_blank">
+                    <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
+                  </a>
+                </li>
+
+                <li class="li-social">
+                  <a class="link-social" href="https://www.linkedin.com" target="_blank">
+                    <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
+                  </a>
+                </li>
           
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.linkedin.com" target="_blank">
-                <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
-              </a>
-            </li>
-          </div>
-          
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
-                <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
-              </a>
-            </li>
-          </div>
+                <li class="li-social">
+                  <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
+                    <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
+                  </a>
+                </li>
+              </ul> <!-- ./ul-social -->
+            </div>
+          </div> <!-- col-md-12 -->
 
-        </ul> <!-- ./ul -->
+        </div> <!-- ./row -->
 
       </div> <!-- /.sidebar -->
 
     </div> <!-- /.main -->
 
-    <footer class="navbar  navbar-default navbar-fixed-bottom">
+    <footer class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
 
         <h5 class="text-center" id="footer">Copyright &#169; 2017 Elaina Swann</h5>

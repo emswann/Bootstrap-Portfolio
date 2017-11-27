@@ -49,15 +49,15 @@
     </div> <!-- ./navbar-header -->
 
     <!-- Links to access all pages of website. -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+    <div>
+      <ul class="nav navbar-nav navbar-right" id="ul-html-pages">
         <li class="h4 li-html-pages"><a class="link-html-pages" href="index.html" alt="About" target="_self">About</a></li>
 
         <li class="h4 li-html-pages"><a class="link-html-pages" href="portfolio.html" alt="Portfolio" target="_self">Portfolio</a></li>
 
         <li class="h4 li-html-pages"><a class="link-html-pages" href="contact.html" alt="Contact" target="_self">Contact</a></li>
       </ul>
-    </div> <!-- /.navbar-collapse -->
+    </div> <!-- /.navbar-right -->
 
   </div> <!-- /.container -->
   </nav> <!-- /.nav -->
@@ -67,11 +67,11 @@
 
     <div class="row" id="main">
 
-     <div class="col-md-8 clearfix" id="content">
+     <div class="col-md-8" id="content">
 
-        <div class="page-header">
+        <div class="page-header" id="content-header">
           <h1>Contact</h1>
-        </div> <!-- ./page-header -->
+        </div> <!-- ./content-header -->
 
         <div class="row" id="contact">
 
@@ -98,7 +98,7 @@
 
             </form>
 
-          </div> <!-- col-md-12" -->
+          </div> <!-- ./col-md-12 -->
 
         </div> <!-- ./contact -->
 
@@ -106,39 +106,39 @@
 
       <div class="col-md-3 col-md-offset-1" id="sidebar">
 
-        <div class="page-header">
+        <div class="page-header" id="sidebar-header">
           <h2>Connect with Me</h2>
-        </div> <!-- ./page-header -->
+        </div> <!-- ./sidebar-header -->
 
-        <ul class="row list-inline ul-social">
+        <div class="row">
 
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.github.com" target="_blank">
-              <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
-              </a>
-            </li>
-          </div>
+          <div class="col-md-12">
+            <div>
+              <ul class="list-inline text-center ul-social">
+                <li class="li-social">
+                  <a class="link-social" href="https://www.github.com" target="_blank">
+                    <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
+                  </a>
+                </li>
+
+                <li class="li-social">
+                  <a class="link-social" href="https://www.linkedin.com" target="_blank">
+                    <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
+                  </a>
+                </li>
           
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.linkedin.com" target="_blank">
-                <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
-              </a>
-            </li>
-          </div>
-          
-          <div class="col-md-4">
-            <li class="li-social">
-              <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
-                <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
-              </a>
-            </li>
-          </div>
+                <li class="li-social">
+                  <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
+                    <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
+                  </a>
+                </li>
+              </ul> <!-- ./ul-social -->
+            </div>
+          </div> <!-- col-md-12 -->
 
-        </ul> <!-- ./ul -->
+        </div> <!-- ./row -->
 
-      </div> <!-- /.col-md-3 -->
+      </div> <!-- /.sidebar -->
 
     </div> <!-- /.main -->
 
