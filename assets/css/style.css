@@ -51,19 +51,21 @@ html, body {
 }
 
 .img-container {
+  margin: 0 3rem;
+  padding: 0;
   position: relative;
 }
 
 .img-portfolio {
   height: 100%;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1.25rem;
   width: 100%;
 }
 
 .img-caption {
   align-items: center;
   background: #4aaaa5;
-  bottom: 10%;
+  bottom: 15%;
   color: #ffffff;
   display: flex;
   height: 15%;
