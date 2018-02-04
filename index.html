@@ -10,7 +10,6 @@
 -->
 
 <head>
-
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,15 +33,12 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-default">
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default">
   <div class="container">
-
     <!-- Brand (Me) -->
     <div class="navbar-header">
       <h1 class="navbar-text" id="brand">Elaina Swann</h1>
@@ -58,110 +54,85 @@
         <li class="h4 li-html-pages"><a class="link-html-pages" href="contact.html" alt="Contact" target="_self">Contact</a></li>
       </ul>
     </div> <!-- /.navbar-right -->
-
   </div> <!-- /.container -->
-  </nav> <!-- /.nav -->
+</nav> <!-- /.nav -->
 
-  <!-- Webpage contents -->
-  <div class="container">
+<!-- Webpage contents -->
+<div class="container">
+  <div class="row" id="main">
+    <div class="col-md-8" id="content">
+      <div class="page-header" id="content-header">
+        <h1>About Me</h1>
+      </div> <!-- ./content-header -->
 
-    <div class="row" id="main">
+      <div class="row" id="profile">
+        <div class="col-md-12">
+          <!-- Splitting up paragraph and controlling by rows/columns (vs. one column and using float) so section will stack with small viewports. -->
+          <div class="row">
+            <div class="col-md-4">
+              <div>
+                <img src="assets/images/Elaina-Swann-Profile.png"  class="img-responsive img-thumbnail" id="img-profile" alt="Elaina Swann Profile Picture" />
+              </div> <!-- ./img-profile -->
+            </div> <!-- col-md-4 -->
+            <div class="col-md-8">
+              <div>     
+                <p class="text-justify profile-summary">
+                  I moved to the Bluffton, South Carolina area over a year ago and thoroughly enjoy the sunny, beach life. I previously lived in Eastern Pennsylvania on a 16-acre property which was complete with horses and all types of wildlife. I love any type of animal! Prior to Pennsylvania, I lived in Alabama, New Jersey, Georgia and Mississippi. As you can probably guess, I am not a huge fan of cold weather.
+                </p>
+              </div> <!-- ./profile-summary Part 1 -->               
+            </div> <!-- col-md-8 -->
+          </div> <!-- ./row --> 
+          <div class="row">
+            <div class="col-md-12">
+              <div>     
+                <p class="text-justify profile-summary">
+                  I earned my BS degree in Computer Science and Math from the University of Alabama in Huntsville. I have been programming for 26 years and have seen many technologies. As a senior level programmer, I have also worked as an SME and project lead. However, I have never strayed far from actual development work. My expertise is in C, object-oriented languages (C++/Java), relational databases and scripting languages (Perl, Unix). I have experience on both Windows and Unix/Linux environments. I love to solve problems. If not a developer, I would definitely be working in a field with an -ology on the end of it or maybe Forensic Science.<br /><br /> When I am not on the computer you can find me walking, listening to music, or involved with something athletic. You might even catch me watching crime solving shows on TV or solving puzzles.
+                </p>
+              </div> <!-- ./profile-summary Part 2-->
+            </div> <!-- ./col-md-12 -->
+          </div> <!-- ./row -->
+        </div> <!-- ./col-md-12 -->
+      </div> <!-- ./profile -->
+    </div> <!-- ./content -->
 
-      <div class="col-md-8" id="content">
+    <div class="col-md-3 col-md-offset-1" id="sidebar">
+      <div class="page-header" id="sidebar-header">
+        <h2>Connect with Me</h2>
+      </div> <!-- ./sidebar-header -->
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <ul class="list-inline text-center ul-social">
+              <li class="li-social">
+                <a class="link-social" href="https://www.github.com" target="_blank">
+                  <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
+                </a>
+              </li>
+              <li class="li-social">
+                <a class="link-social" href="https://www.linkedin.com" target="_blank">
+                  <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
+                </a>
+              </li>          
+              <li class="li-social">
+                <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
+                  <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
+                </a>
+              </li>
+            </ul> <!-- ./ul-social -->
+          </div>
+        </div> <!-- col-md-12 -->
+      </div> <!-- ./row -->
+    </div> <!-- /.sidebar -->
+  </div> <!-- /.main -->
 
-        <div class="page-header" id="content-header">
-          <h1>About Me</h1>
-        </div> <!-- ./content-header -->
-
-        <div class="row" id="profile">
-
-          <div class="col-md-12">
-
-            <!-- Splitting up paragraph and controlling by rows/columns (vs. one column and using float) so section will stack with small viewports. -->
-            <div class="row">
-
-              <div class="col-md-4">
-                <div>
-                  <img src="assets/images/Elaina-Swann-Profile.png"  class="img-responsive img-thumbnail" id="img-profile" alt="Elaina Swann Profile Picture" />
-                </div> <!-- ./img-profile -->
-              </div> <!-- col-md-4 -->
-
-              <div class="col-md-8">
-                <div>     
-                  <p class="text-justify profile-summary">
-                    I moved to the Bluffton, South Carolina area over a year ago and thoroughly enjoy the sunny, beach life. I previously lived in Eastern Pennsylvania on a 16-acre property which was complete with horses and all types of wildlife. I love any type of animal! Prior to Pennsylvania, I lived in Alabama, New Jersey, Georgia and Mississippi. As you can probably guess, I am not a huge fan of cold weather.
-                  </p>
-                </div> <!-- ./profile-summary Part 1 -->               
-              </div> <!-- col-md-8 -->
-
-            </div> <!-- ./row -->
- 
-            <div class="row">
-
-              <div class="col-md-12">
-                <div>     
-                  <p class="text-justify profile-summary">
-                    I earned my BS degree in Computer Science and Math from the University of Alabama in Huntsville. I have been programming for 26 years and have seen many technologies. As a senior level programmer, I have also worked as an SME and project lead. However, I have never strayed far from actual development work. My expertise is in C, object-oriented languages (C++/Java), relational databases and scripting languages (Perl, Unix). I have experience on both Windows and Unix/Linux environments. I love to solve problems. If not a developer, I would definitely be working in a field with an -ology on the end of it or maybe Forensic Science.<br /><br /> When I am not on the computer you can find me walking, listening to music, or involved with something athletic. You might even catch me watching crime solving shows on TV or solving puzzles.
-                  </p>
-                </div> <!-- ./profile-summary Part 2-->
-              </div> <!-- ./col-md-12 -->
-
-            </div> <!-- ./row -->
-
-          </div> <!-- ./col-md-12 -->
-
-        </div> <!-- ./profile -->
-
-      </div> <!-- ./content -->
-
-      <div class="col-md-3 col-md-offset-1" id="sidebar">
-
-        <div class="page-header" id="sidebar-header">
-          <h2>Connect with Me</h2>
-        </div> <!-- ./sidebar-header -->
-
-        <div class="row">
-
-          <div class="col-md-12">
-            <div>
-              <ul class="list-inline text-center ul-social">
-                <li class="li-social">
-                  <a class="link-social" href="https://www.github.com" target="_blank">
-                    <img class="img-social" src="assets/images/github-64px.png" alt="Github website" />
-                  </a>
-                </li>
-
-                <li class="li-social">
-                  <a class="link-social" href="https://www.linkedin.com" target="_blank">
-                    <img class="img-social" src="assets/images/linkedin-64px.png" alt="Linkedin website" />
-                  </a>
-                </li>
-          
-                <li class="li-social">
-                  <a class="link-social" href="https://www.stackoverflow.com" target="_blank">
-                    <img class="img-social" src="assets/images/stackoverflow-64px.png" alt="Stackoverflow website" />
-                  </a>
-                </li>
-              </ul> <!-- ./ul-social -->
-            </div>
-          </div> <!-- col-md-12 -->
-
-        </div> <!-- ./row -->
-
-      </div> <!-- /.sidebar -->
-
-    </div> <!-- /.main -->
-
-    <footer class="navbar navbar-default navbar-fixed-bottom">
+  <footer class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
-
-        <h5 class="text-center" id="footer">Copyright &#169; 2017 Elaina Swann</h5>
-
+      <h5 class="text-center" id="footer">
+        Copyright &#169; 2018 Elaina Swann
+      </h5>
     </div>
-    </footer> <!-- /.footer -->
-
-  </div> <!-- /.container -->
-
+  </footer> <!-- /.footer -->
+</div> <!-- /.container -->
 </body>
 
 </html>
