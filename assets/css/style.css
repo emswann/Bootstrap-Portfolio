@@ -24,9 +24,13 @@ html, body {
   font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
-.navbar-fixed-bottom {
+.navbar-fixed-bottom, .navbar-footer {
   background: #666666;
   border-top: .5rem solid #4aaaa5;
+}
+
+.navbar-footer {
+  margin-top: 2rem;
 }
 
 #main {
@@ -51,9 +55,10 @@ html, body {
 }
 
 .img-container {
-  margin: 0 3rem;
+  margin: 0 3rem 2rem 3rem;
   padding: 0;
   position: relative;
+  height: 25rem;
 }
 
 .img-portfolio {
@@ -65,14 +70,18 @@ html, body {
 .img-caption {
   align-items: center;
   background: #4aaaa5;
-  bottom: 15%;
+  bottom: 2%;
   color: #ffffff;
   display: flex;
-  height: 15%;
+  height: 10%;
   justify-content: center;
   left: 0;
   position: absolute;
   width: 100%;
+}
+
+.img-h4 {
+  color: #ffffff;
 }
 
 #form-button {
